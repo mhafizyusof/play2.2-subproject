@@ -3,4 +3,4 @@
 # ~~~~
 
 # Home page
-GET     /                           controllers.admin.Admin.index()
+GET     /                           controllers.api.StaticPages.index()

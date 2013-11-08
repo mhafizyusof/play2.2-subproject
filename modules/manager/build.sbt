@@ -1,12 +1,10 @@
 import play.Project._
 
-name := "subtest"
+name := "TestProject-manager"
 
 version := "1.0-SNAPSHOT"
 
 libraryDependencies ++= Seq(
-  javaJdbc,
-  javaEbean,
   cache
 )
 
